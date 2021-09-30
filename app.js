@@ -3,7 +3,7 @@ var inptext = document.querySelector("#text")
 var outputtext = document.querySelector(".optext")
 
 // res.addEventListener("click", function ToDoevent() {
-//     console.log("clicked!!!")
+console.log(inptext.value)
 // })
 var url = "https://api.funtranslations.com/translate/minion.json"
 
