@@ -6,7 +6,6 @@ var outputtext = document.querySelector(".optext")
 console.log(inptext.value)
 // })
 var url = "https://api.funtranslations.com/translate/minion.json"
-
 function getURL(text) {
     // url for API +query selector + key + value passed
     return url + "?" + "text=" + text
